@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarvelCharacters.SPA", "Mar
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FE3BE3AE-DD47-440C-B6B3-D2617AA3D4B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarvelCharacters.API", "MarvelCharacters.API\MarvelCharacters.API.csproj", "{EB784BC9-7784-4DF8-8F06-A0FC3AD1E650}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{AC2BDACB-5773-4D98-883C-5262772B70BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC2BDACB-5773-4D98-883C-5262772B70BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC2BDACB-5773-4D98-883C-5262772B70BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB784BC9-7784-4DF8-8F06-A0FC3AD1E650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB784BC9-7784-4DF8-8F06-A0FC3AD1E650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB784BC9-7784-4DF8-8F06-A0FC3AD1E650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB784BC9-7784-4DF8-8F06-A0FC3AD1E650}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
