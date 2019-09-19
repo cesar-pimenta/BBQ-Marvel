@@ -56,7 +56,7 @@ namespace MarvelCharacters.API.Services.Http
 
         public async Task<IReadOnlyCollection<Character>> GetCharacters(string searchString)
         {
-            string authorizationQuery = GetAuthorizationString("d01b50da5c701311ed036ae0a885c94f13e843d9", "809cd7c6b557803e35b5503b819a306f", 1);
+            string authorizationQuery = GetAuthorizationString(, 1);
 
             string uri = $"/v1/public/characters?limit=10&{authorizationQuery}";
 
