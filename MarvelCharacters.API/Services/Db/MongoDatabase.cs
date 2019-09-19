@@ -9,7 +9,7 @@ namespace MarvelCharacters.API.Services.Db
 {
     public class MongoDatabase
     {
-        private const string CONNECTION = "mongodb+srv://bootcamp:bootcamp@cluster0-2a1pz.azure.mongodb.net/?retryWrites=true&w=majority";
+        private const string CONNECTION = "";
         private const string CHARACTER_COLLECTION_NAME = "character";
 
         static IMongoDatabase GetDatabase(string connectionString, string database)
